@@ -1,3 +1,6 @@
 --- 
-open_files: []
-
+open_files: 
+  - Gemfile
+  - app/controllers/application_controller.rb
+  - app/views/layouts/application.html.erb
+  - public/index.html

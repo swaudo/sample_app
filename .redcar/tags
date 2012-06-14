@@ -1,5 +1,20 @@
-1339578703
+1339635155
+About page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	/root/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/root/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/root/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+Help page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
+Home page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	/root/rails_projects/sample_app/config/application.rb	module SampleApp
+Static pages	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
+StaticPagesController	/root/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
+StaticPagesHelper	/root/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+about	/root/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
+help	/root/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
+home	/root/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
+should have the h1 'About Us'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'About Us'" do
+should have the h1 'Help'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Help'" do
+should have the h1 'Sample App'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Sample App'" do
+should have the title 'About Us'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'About Us'" do
+should have the title 'Help'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Help'" do
+should have the title 'Home'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Home'" do
