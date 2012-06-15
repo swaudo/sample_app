@@ -36,12 +36,6 @@ cursor_positions:
   - :path: app/helpers/application_helper.rb
     :cursor_offset: 262
     :timestamp: 2012-06-14 14:31:26 +10:00
-  - :path: Gemfile
-    :cursor_offset: 456
-    :timestamp: 2012-06-15 11:11:24 +10:00
-  - :path: app/assets/stylesheets/custom.css.scss
-    :cursor_offset: 0
-    :timestamp: 2012-06-14 14:58:45 +10:00
   - :path: config/routes.rb
     :cursor_offset: 57
     :timestamp: 2012-06-14 11:05:23 +10:00
@@ -50,16 +44,37 @@ cursor_positions:
   - :path: app/controllers/application_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-06-13 18:40:19 +10:00
-  - :path: spec/spec_helper.rb
-    :cursor_offset: 0
-    :timestamp: 2012-06-15 11:31:54 +10:00
-  - :path: app/assets/stylesheets/static_pages.css.scss
-    :cursor_offset: 0
-    :timestamp: 2012-06-15 11:32:10 +10:00
   - :path: app/controllers/static_pages_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-06-15 11:32:10 +10:00
   - :path: app/controllers/a_static_pages_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-06-15 11:41:34 +10:00
+  - :path: app/assets/stylesheets/application.css
+    :cursor_offset: 0
+    :timestamp: 2012-06-13 18:40:19 +10:00
+  - :path: app/views/layouts/_shim.html.erb
+    :cursor_offset: 105
+    :timestamp: 2012-06-15 17:18:49 +10:00
+  - :path: app/views/layouts/_header.html.erb
+    :cursor_offset: 418
+    :timestamp: 2012-06-15 14:48:19 +10:00
+  - :path: app/views/layouts/_footer.html.erb
+    :cursor_offset: 341
+    :timestamp: 2012-06-15 14:48:21 +10:00
+  - :path: app/assets/stylesheets/static_pages.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 11:32:10 +10:00
+  - :path: app/assets/stylesheets/custom.css.scss
+    :cursor_offset: 1265
+    :timestamp: 2012-06-15 17:26:15 +10:00
+  - :path: config/application.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-13 18:40:19 +10:00
+  - :path: spec/spec_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 11:31:54 +10:00
+  - :path: Gemfile
+    :cursor_offset: 81
+    :timestamp: 2012-06-15 14:39:41 +10:00
 files_to_retain: 0
