@@ -12,35 +12,9 @@ cursor_positions:
   - :path: Gemfile.lock
     :cursor_offset: 0
     :timestamp: 2012-06-14 14:37:07 +10:00
-  - :path: app/views/static_pages/about.html.erb
-    :cursor_offset: 341
-    :timestamp: 2012-06-14 10:54:11 +10:00
-  - :path: app/views/static_pages/contact.html.erb
-    :cursor_offset: 182
-    :timestamp: 2012-06-14 10:59:56 +10:00
-  - :path: app/views/static_pages/home.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-06-15 11:32:10 +10:00
-  - :path: app/views/static_pages/help.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-06-15 11:32:10 +10:00
   - :path: app/helpers/static_pages_helper.rb
     :cursor_offset: 0
     :timestamp: 2012-06-15 11:32:10 +10:00
-  - :path: spec/requests/static_pages_spec.rb
-    :cursor_offset: 1091
-    :timestamp: 2012-06-14 11:03:36 +10:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 786
-    :timestamp: 2012-06-14 14:26:42 +10:00
-  - :path: app/helpers/application_helper.rb
-    :cursor_offset: 262
-    :timestamp: 2012-06-14 14:31:26 +10:00
-  - :path: config/routes.rb
-    :cursor_offset: 57
-    :timestamp: 2012-06-14 11:05:23 +10:00
-    :selection_offset: 45
-    :block_selection_mode: false
   - :path: app/controllers/application_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-06-13 18:40:19 +10:00
@@ -71,10 +45,58 @@ cursor_positions:
   - :path: config/application.rb
     :cursor_offset: 0
     :timestamp: 2012-06-13 18:40:19 +10:00
+  - :path: app/views/static_pages/home.html.erb
+    :cursor_offset: 210
+    :timestamp: 2012-06-15 17:46:24 +10:00
+  - :path: app/views/static_pages/contact.html.erb
+    :cursor_offset: 182
+    :timestamp: 2012-06-15 14:39:35 +10:00
+  - :path: app/views/static_pages/about.html.erb
+    :cursor_offset: 92
+    :timestamp: 2012-06-15 14:39:31 +10:00
+  - :path: app/views/static_pages/help.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 17:46:24 +10:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 17:46:24 +10:00
+  - :path: app/helpers/application_helper.rb
+    :cursor_offset: 263
+    :timestamp: 2012-06-15 17:46:24 +10:00
+  - :path: spec/requests/user_pages_spec.rb
+    :cursor_offset: 265
+    :timestamp: 2012-06-15 17:46:24 +10:00
+  - :path: app/views/users/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 17:46:24 +10:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 17:46:24 +10:00
+  - :path: db/migrate/20120615110951_create_users.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 21:09:51 +10:00
+  - :path: app/models/user.rb
+    :cursor_offset: 552
+    :timestamp: 2012-06-22 12:44:24 +10:00
+  - :path: spec/models/user_spec.rb
+    :cursor_offset: 1690
+    :timestamp: 2012-06-22 12:40:24 +10:00
+  - :path: db/migrate/20120622024607_add_index_to_users_email.rb
+    :cursor_offset: 109
+    :timestamp: 2012-06-22 12:47:02 +10:00
+  - :path: db/schema.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 21:11:46 +10:00
+  - :path: Gemfile
+    :cursor_offset: 108
+    :timestamp: 2012-06-22 13:53:40 +10:00
   - :path: spec/spec_helper.rb
     :cursor_offset: 0
     :timestamp: 2012-06-15 11:31:54 +10:00
-  - :path: Gemfile
-    :cursor_offset: 81
-    :timestamp: 2012-06-15 14:39:41 +10:00
+  - :path: config/routes.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 17:46:24 +10:00
+  - :path: spec/requests/static_pages_spec.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 17:46:24 +10:00
 files_to_retain: 0

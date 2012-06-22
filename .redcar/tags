@@ -1,22 +1,33 @@
-1339745924
+1340340141
 About page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
+AddIndexToUsersEmail	/root/rails_projects/sample_app/db/migrate/20120622024607_add_index_to_users_email.rb	class AddIndexToUsersEmail 
+AddPasswordDigestToUsers	/root/rails_projects/sample_app/db/migrate/20120622035826_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
 Application	/root/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/root/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/root/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 Contact page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
+CreateUsers	/root/rails_projects/sample_app/db/migrate/20120615110951_create_users.rb	class CreateUsers 
 Help page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	/root/rails_projects/sample_app/config/application.rb	module SampleApp
 Static pages	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	/root/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	/root/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+User	/root/rails_projects/sample_app/app/models/user.rb	class User 
 User pages	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "User pages" do
 UsersController	/root/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
 UsersHelper	/root/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
+VALID_EMAIL_REGEX	/root/rails_projects/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
+change	/root/rails_projects/sample_app/db/migrate/20120615110951_create_users.rb	  def change
+change	/root/rails_projects/sample_app/db/migrate/20120622024607_add_index_to_users_email.rb	  def change
+change	/root/rails_projects/sample_app/db/migrate/20120622035826_add_password_digest_to_users.rb	  def change
 full_title	/root/rails_projects/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 help	/root/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/root/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	/root/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
+return value of authenticate method	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
+should be invalid	/root/rails_projects/sample_app/spec/models/user_spec.rb	it "should be invalid" do
+should be valid	/root/rails_projects/sample_app/spec/models/user_spec.rb	it "should be valid" do
 should have the h1 'About Us'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'About Us'" do
 should have the h1 'Contact'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Contact'" do
 should have the h1 'Help'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Help'" do
@@ -26,3 +37,15 @@ should have the title 'Contact'	/root/rails_projects/sample_app/spec/requests/st
 should have the title 'Help'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Help'" do
 should have the title 'Home'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Home'" do
 signup page	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+when email address is already taken	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
+when email format is invalid	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email format is invalid" do
+when email format is valid	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email format is valid" do
+when email is not present	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email is not present" do
+when name is not present	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when name is not present" do
+when name is too long	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when name is too long" do
+when password confirmation is nil	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password confirmation is nil" do
+when password doesn't match confirmation	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
+when password is not present	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
+with a password that's too short	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "with a password that's too short" do
+with invalid password	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
+with valid password	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "with valid password" do
