@@ -1,4 +1,4 @@
-1342502100
+1342503057
 About page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	/root/rails_projects/sample_app/db/migrate/20120622024607_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	/root/rails_projects/sample_app/db/migrate/20120622035826_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
