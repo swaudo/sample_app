@@ -12,12 +12,6 @@ cursor_positions:
   - :path: Gemfile.lock
     :cursor_offset: 0
     :timestamp: 2012-06-14 14:37:07 +10:00
-  - :path: app/helpers/static_pages_helper.rb
-    :cursor_offset: 0
-    :timestamp: 2012-06-15 11:32:10 +10:00
-  - :path: app/controllers/application_controller.rb
-    :cursor_offset: 0
-    :timestamp: 2012-06-13 18:40:19 +10:00
   - :path: app/controllers/static_pages_controller.rb
     :cursor_offset: 0
     :timestamp: 2012-06-15 11:32:10 +10:00
@@ -27,76 +21,157 @@ cursor_positions:
   - :path: app/assets/stylesheets/application.css
     :cursor_offset: 0
     :timestamp: 2012-06-13 18:40:19 +10:00
-  - :path: app/views/layouts/_shim.html.erb
-    :cursor_offset: 105
-    :timestamp: 2012-06-15 17:18:49 +10:00
-  - :path: app/views/layouts/_header.html.erb
-    :cursor_offset: 418
-    :timestamp: 2012-06-15 14:48:19 +10:00
-  - :path: app/views/layouts/_footer.html.erb
-    :cursor_offset: 341
-    :timestamp: 2012-06-15 14:48:21 +10:00
   - :path: app/assets/stylesheets/static_pages.css.scss
     :cursor_offset: 0
     :timestamp: 2012-06-15 11:32:10 +10:00
-  - :path: app/assets/stylesheets/custom.css.scss
-    :cursor_offset: 1265
-    :timestamp: 2012-06-15 17:26:15 +10:00
   - :path: config/application.rb
     :cursor_offset: 0
     :timestamp: 2012-06-13 18:40:19 +10:00
-  - :path: app/views/static_pages/home.html.erb
-    :cursor_offset: 210
-    :timestamp: 2012-06-15 17:46:24 +10:00
   - :path: app/views/static_pages/contact.html.erb
     :cursor_offset: 182
     :timestamp: 2012-06-15 14:39:35 +10:00
   - :path: app/views/static_pages/about.html.erb
     :cursor_offset: 92
     :timestamp: 2012-06-15 14:39:31 +10:00
+  - :path: spec/spec_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 11:31:54 +10:00
+  - :path: spec/requests/static_pages_spec.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 17:46:24 +10:00
+  - :path: tmp/cache/sass/0f3d0a377635858015a5a6100b5ffdc0c08c2d4c/_accordion.scssc
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 12:40:21 +10:00
+  - :path: tmp/cache/assets/CB7/650/sprockets%2F588c9901cc9d66dd5e29b5115811c450
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 11:44:20 +10:00
+  - :path: tmp/cache/assets/CB0/D60/sprockets%2F0335d87ebd93523744c2fec4426f4432
+    :cursor_offset: 0
+    :timestamp: 2012-07-03 16:10:46 +10:00
+  - :path: tmp/cache/sass/0f3d0a377635858015a5a6100b5ffdc0c08c2d4c/_breadcrumbs.scssc
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 12:40:21 +10:00
+  - :path: tmp/cache/sass/0f3d0a377635858015a5a6100b5ffdc0c08c2d4c/_button-groups.scssc
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 12:40:21 +10:00
+  - :path: tmp/cache/sass/0f3d0a377635858015a5a6100b5ffdc0c08c2d4c/_alerts.scssc
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 12:40:21 +10:00
+  - :path: tmp/cache/sass/0f3d0a377635858015a5a6100b5ffdc0c08c2d4c/_buttons.scssc
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 12:40:21 +10:00
+  - :path: tmp/cache/sass/1aae1c52369d3cd0e054d08095548504d762fae9/_bootstrap.scssc
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 12:40:20 +10:00
+  - :path: app/assets/stylesheets/sessions.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-07-03 15:54:54 +10:00
+  - :path: app/views/users/show.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-06-22 15:55:53 +10:00
+  - :path: app/assets/stylesheets/custom.css.scss
+    :cursor_offset: 305
+    :timestamp: 2012-06-22 21:33:30 +10:00
+  - :path: Gemfile
+    :cursor_offset: 71
+    :timestamp: 2012-06-22 15:32:34 +10:00
+    :selection_offset: 57
+    :block_selection_mode: false
+  - :path: app/views/shared/_error_messages.html.erb
+    :cursor_offset: 277
+    :timestamp: 2012-07-11 10:54:24 +10:00
+  - :path: app/helpers/users_helper.rb
+    :cursor_offset: 321
+    :timestamp: 2012-07-07 15:58:13 +10:00
+  - :path: app/views/layouts/_shim.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 17:46:24 +10:00
+  - :path: app/views/layouts/_footer.html.erb
+    :cursor_offset: 71
+    :timestamp: 2012-06-15 17:46:24 +10:00
+    :selection_offset: 46
+    :block_selection_mode: false
+  - :path: app/helpers/static_pages_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 11:32:10 +10:00
+  - :path: app/assets/javascripts/users.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 17:46:24 +10:00
+  - :path: app/assets/javascripts/static_pages.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2012-06-15 11:32:10 +10:00
+  - :path: app/assets/javascripts/sessions.js.coffee
+    :cursor_offset: 0
+    :timestamp: 2012-07-03 15:54:54 +10:00
   - :path: app/views/static_pages/help.html.erb
     :cursor_offset: 0
-    :timestamp: 2012-06-15 17:46:24 +10:00
+    :timestamp: 2012-07-12 22:50:55 +10:00
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 0
-    :timestamp: 2012-06-15 17:46:24 +10:00
+    :timestamp: 2012-07-17 12:01:18 +10:00
   - :path: app/helpers/application_helper.rb
     :cursor_offset: 263
     :timestamp: 2012-06-15 17:46:24 +10:00
   - :path: spec/requests/user_pages_spec.rb
-    :cursor_offset: 265
-    :timestamp: 2012-06-15 17:46:24 +10:00
+    :cursor_offset: 0
+    :timestamp: 2012-07-13 17:52:24 +10:00
   - :path: app/views/users/new.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-06-15 17:46:24 +10:00
+    :cursor_offset: 139
+    :timestamp: 2012-06-22 21:43:26 +10:00
   - :path: app/controllers/users_controller.rb
-    :cursor_offset: 0
-    :timestamp: 2012-06-15 17:46:24 +10:00
+    :cursor_offset: 742
+    :timestamp: 2012-07-13 18:42:58 +10:00
   - :path: db/migrate/20120615110951_create_users.rb
     :cursor_offset: 0
     :timestamp: 2012-06-15 21:09:51 +10:00
   - :path: app/models/user.rb
-    :cursor_offset: 552
-    :timestamp: 2012-06-22 12:44:24 +10:00
+    :cursor_offset: 0
+    :timestamp: 2012-07-12 22:51:00 +10:00
   - :path: spec/models/user_spec.rb
-    :cursor_offset: 1690
-    :timestamp: 2012-06-22 12:40:24 +10:00
+    :cursor_offset: 0
+    :timestamp: 2012-07-12 22:50:59 +10:00
   - :path: db/migrate/20120622024607_add_index_to_users_email.rb
-    :cursor_offset: 109
+    :cursor_offset: 52
     :timestamp: 2012-06-22 12:47:02 +10:00
   - :path: db/schema.rb
     :cursor_offset: 0
-    :timestamp: 2012-06-15 21:11:46 +10:00
-  - :path: Gemfile
-    :cursor_offset: 108
-    :timestamp: 2012-06-22 13:53:40 +10:00
-  - :path: spec/spec_helper.rb
+    :timestamp: 2012-07-12 20:57:10 +10:00
+  - :path: app/views/static_pages/home.html.erb
+    :cursor_offset: 251
+    :timestamp: 2012-07-12 22:50:56 +10:00
+    :selection_offset: 329
+    :block_selection_mode: false
+  - :path: app/views/layouts/_header.html.erb
+    :cursor_offset: 1121
+    :timestamp: 2012-07-13 18:13:40 +10:00
+  - :path: db/migrate/20120622035826_add_password_digest_to_users.rb
     :cursor_offset: 0
-    :timestamp: 2012-06-15 11:31:54 +10:00
+    :timestamp: 2012-06-22 13:58:26 +10:00
   - :path: config/routes.rb
+    :cursor_offset: 217
+    :timestamp: 2012-07-03 16:00:43 +10:00
+  - :path: app/controllers/application_controller.rb
     :cursor_offset: 0
-    :timestamp: 2012-06-15 17:46:24 +10:00
-  - :path: spec/requests/static_pages_spec.rb
+    :timestamp: 2012-07-12 22:50:58 +10:00
+  - :path: app/helpers/sessions_helper.rb
     :cursor_offset: 0
-    :timestamp: 2012-06-15 17:46:24 +10:00
+    :timestamp: 2012-07-13 18:21:57 +10:00
+  - :path: app/views/users/edit.html.erb
+    :cursor_offset: 192
+    :timestamp: 2012-07-11 11:20:32 +10:00
+  - :path: spec/support/utilities.rb
+    :cursor_offset: 0
+    :timestamp: 2012-07-13 17:06:36 +10:00
+  - :path: spec/requests/authentication_pages_spec.rb
+    :cursor_offset: 0
+    :timestamp: 2012-07-13 17:54:13 +10:00
+  - :path: app/controllers/sessions_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-07-13 18:27:32 +10:00
+  - :path: app/views/sessions/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-07-03 16:18:40 +10:00
+  - :path: app/views/users/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-07-13 18:45:41 +10:00
 files_to_retain: 0

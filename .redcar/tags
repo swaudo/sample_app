@@ -1,15 +1,19 @@
-1340340141
+1342502100
 About page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	/root/rails_projects/sample_app/db/migrate/20120622024607_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	/root/rails_projects/sample_app/db/migrate/20120622035826_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
+AddRememberTokenToUsers	/root/rails_projects/sample_app/db/migrate/20120703072204_add_remember_token_to_users.rb	class AddRememberTokenToUsers 
 Application	/root/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/root/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/root/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+Authentication	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "Authentication" do
 Contact page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
 CreateUsers	/root/rails_projects/sample_app/db/migrate/20120615110951_create_users.rb	class CreateUsers 
 Help page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	/root/rails_projects/sample_app/config/application.rb	module SampleApp
+SessionsController	/root/rails_projects/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
+SessionsHelper	/root/rails_projects/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
 Static pages	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	/root/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	/root/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
@@ -18,16 +22,42 @@ User pages	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	desc
 UsersController	/root/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
 UsersHelper	/root/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 VALID_EMAIL_REGEX	/root/rails_projects/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
+after saving the user	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
+after visiting another page	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "after visiting another page" do
+as wrong user	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "as wrong user" do
+authorization	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "authorization" do
 change	/root/rails_projects/sample_app/db/migrate/20120615110951_create_users.rb	  def change
 change	/root/rails_projects/sample_app/db/migrate/20120622024607_add_index_to_users_email.rb	  def change
 change	/root/rails_projects/sample_app/db/migrate/20120622035826_add_password_digest_to_users.rb	  def change
+change	/root/rails_projects/sample_app/db/migrate/20120703072204_add_remember_token_to_users.rb	  def change
+correct_user	/root/rails_projects/sample_app/app/controllers/users_controller.rb	    def correct_user
+create	/root/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def create
+create	/root/rails_projects/sample_app/app/controllers/users_controller.rb	  def create
+create_remember_token	/root/rails_projects/sample_app/app/models/user.rb	    def create_remember_token
+current_user	/root/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user
+current_user=	/root/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
+current_user?	/root/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def current_user?(user)
+destroy	/root/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def destroy
+edit	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "edit" do
+edit	/root/rails_projects/sample_app/app/controllers/users_controller.rb	  def edit
+followed by signout	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "followed by signout" do
+for non-signed-in users	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "for non-signed-in users" do
 full_title	/root/rails_projects/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
+gravatar_for	/root/rails_projects/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user)
 help	/root/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/root/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
+in the Users controller	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "in the Users controller" do
+index	/root/rails_projects/sample_app/app/controllers/users_controller.rb	  def index
+new	/root/rails_projects/sample_app/app/controllers/sessions_controller.rb	  def new
 new	/root/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
+page	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "page" do
+profile page	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
+redirect_back_or	/root/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def redirect_back_or(default)
+remember token	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "remember token" do
 return value of authenticate method	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
 should be invalid	/root/rails_projects/sample_app/spec/models/user_spec.rb	it "should be invalid" do
 should be valid	/root/rails_projects/sample_app/spec/models/user_spec.rb	it "should be valid" do
+should create a user	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	it "should create a user" do
 should have the h1 'About Us'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'About Us'" do
 should have the h1 'Contact'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Contact'" do
 should have the h1 'Help'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Help'" do
@@ -36,7 +66,22 @@ should have the title 'About Us'	/root/rails_projects/sample_app/spec/requests/s
 should have the title 'Contact'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Contact'" do
 should have the title 'Help'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Help'" do
 should have the title 'Home'	/root/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Home'" do
+should not create a user	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
+show	/root/rails_projects/sample_app/app/controllers/users_controller.rb	  def show
+sign_in	/root/rails_projects/sample_app/spec/support/utilities.rb	def sign_in(user)
+sign_in	/root/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
+signed_in?	/root/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
+signed_in_user	/root/rails_projects/sample_app/app/controllers/users_controller.rb	  def signed_in_user
+signin	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin" do
+signin page	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin page" do
+signup	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 signup page	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+store_location	/root/rails_projects/sample_app/app/helpers/sessions_helper.rb	  def store_location
+submitting a PUT request to the Users#update action	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting a PUT request to the Users#update action" do
+submitting to the update action	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting to the update action" do
+update	/root/rails_projects/sample_app/app/controllers/users_controller.rb	  def update
+visiting Users#edit page	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "visiting Users#edit page" do
+visiting the edit page	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "visiting the edit page" do
 when email address is already taken	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
 when email format is invalid	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email format is invalid" do
 when email format is valid	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when email format is valid" do
@@ -47,5 +92,10 @@ when password confirmation is nil	/root/rails_projects/sample_app/spec/models/us
 when password doesn't match confirmation	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
 when password is not present	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
 with a password that's too short	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "with a password that's too short" do
+with invalid information	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid information	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid information	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
 with invalid password	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
+with valid information	/root/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid information	/root/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
 with valid password	/root/rails_projects/sample_app/spec/models/user_spec.rb	describe "with valid password" do

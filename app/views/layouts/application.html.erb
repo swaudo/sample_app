@@ -10,8 +10,30 @@
   <body>
     <%= render 'layouts/header' %>
     <div class="container">
-      <%= yield %>
+     <div class="row">
+      <div class="span9">
+        <%= yield %>
+        </div>
+        <div class="span3">
+        <div class="well sidebar-nav">  
+            <ul class="nav nav-list">  
+              <li class="nav-header">Course Outline</li>  
+              <li class="active"><a href="#">Topic One</a></li>  
+              <li><a href="#">Topic Two</a></li>  
+              <li><a href="#">Topic Three</a></li>  
+              <li><a href="#">Topic Four</a></li>  
+              <li><a href="#">Topic Five</a></li>  
+              <li class="nav-header">Courses</li>  
+              <li><a href="#">Chemistry 101</a></li>  
+              <li><a href="#">Chemistry 102</a></li>  
+              <li><a href="#">Chemistry 103</a></li>  
+            </ul>  
+          </div><!--/.well --> 
+        </div>
+      </div>
+      
       <%= render 'layouts/footer' %>
+      <%= debug(params) if Rails.env.development? %>
     </div>
   </body>
 </html>
